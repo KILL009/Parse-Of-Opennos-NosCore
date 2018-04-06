@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definition>
+    <Globals>
+        <Id Value="2" />
+        <Label Value="Calvina" />
+        <LevelMinimum Value="60"/>
+        <LevelMaximum Value="99"/>
+        <StartX Value="26" />
+        <StartY Value="7" />
+        <Reputation Value="10000" />
+        <GiftItems>
+            <Item Amount="1" VNum="942" Design="50" IsRandomRare="True"/>
+        </GiftItems>
+    </Globals>
+    <InstanceEvents>
+        <CreateMap Map="0" VNum="139">
+
+            <SpawnPortal IdOnMap="0" PositionX="26" PositionY="7" Type="0" ToMap="0" ToX="139" ToY="100"/> <!-- PortalToAct4 -->
+            
+            <OnTimeElapsed Value="1800">
+                <SpawnPortal IdOnMap="1" PositionX="201" PositionY="93" Type="2" ToMap="1" ToX="-1" ToY="-1"/> <!-- PortalToBoss -->
+                <RefreshMapItems/>
+            </OnTimeElapsed>
+
+        </CreateMap>
+        <CreateMap Map="1" VNum="140">
+
+            <SummonMonster VNum="629" PositionX="26" PositionY="25">
+                <OnDeath>
+                    <End Type="1"/>
+                    <SendMessage Value="Congratulations! You have defeated the raid boss" Type="0" />
+                    <ThrowItem VNum="1046" PackAmount="20" MinAmount="20000" MaxAmount="20001"/> <!-- Gold -->
+                    <ThrowItem VNum="2027" PackAmount="10" MinAmount="5" MaxAmount="6"/> <!-- Fired Chicken -->
+                    <ThrowItem VNum="1019" PackAmount="5" MinAmount="1" MaxAmount="2"/> <!-- Cellon (lv.3) -->
+                    <ThrowItem VNum="1009" PackAmount="5" MinAmount="3" MaxAmount="4"/> <!-- Medium Recovery Potion -->
+                    <ThrowItem VNum="1011" PackAmount="5" MinAmount="3" MaxAmount="4"/> <!-- Huge Recovery Potion -->
+                </OnDeath>
+           </SummonMonster>
+
+            <Wave Offset="0" Delay="90">
+                <SendMessage Value="The enemies are getting reinforcements!" Type="0"/>
+                <SummonMonsters VNum="770" Amount="3"/> <!-- Random Pos -->
+                <SummonMonsters VNum="771" Amount="3"/>
+	        </Wave>
+
+        </CreateMap>
+    </InstanceEvents>
+</Definition>

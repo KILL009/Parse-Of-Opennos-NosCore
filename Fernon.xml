@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+    <Globals>
+        <Id Value="25" />
+        <Label Value="Raid Fernon" />
+        <LevelMinimum Value="145"/>
+        <LevelMaximum Value="150"/>
+        <StartX Value="145" />
+        <StartY Value="218" />
+        <Reputation Value="10000" />
+        <RequieredItems>
+            <Item VNum="5858" Amount="1"/>
+        </RequieredItems>
+        <GiftItems>
+            <Item Amount="1" VNum="302" Design="25" IsRandomRare="True"/>
+			<Item Amount="1" VNum="2431" Design="0" IsRandomRare="False"/>
+        </GiftItems>
+    </Globals>
+    <InstanceEvents>
+        <CreateMap Map="0" VNum="247">
+                <SetMonsterLockers Value="1" />
+                <SetButtonLockers Value="0" />
+            <SummonMonster VNum="2574" PositionX="144" PositionY="90" IsBoss="True">
+                <OnDeath>
+                    <RemoveMonsterLocker/>
+                    <RefreshRaidGoals/>
+                    <End Type="1"/>
+                    <ThrowItem VNum="1046" PackAmount="30" MinAmount="100000" MaxAmount="150000"/>
+                </OnDeath>
+            </SummonMonster>
+        </CreateMap>
+    </InstanceEvents>
+</Definition>
