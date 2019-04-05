@@ -3,8 +3,8 @@
     <Globals>
         <Id Value="25" />
         <Label Value="Raid Fernon" />
-        <LevelMinimum Value="145"/>
-        <LevelMaximum Value="150"/>
+        <LevelMinimum Value="99"/>
+        <LevelMaximum Value="500"/>
         <StartX Value="145" />
         <StartY Value="218" />
         <Reputation Value="10000" />
