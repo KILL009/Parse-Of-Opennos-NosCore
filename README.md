@@ -1,7 +1,7 @@
 # Parse-of-opennos #
 
 
-[<img src="https://cdn.nekos.life/neko/neko209.jpg">](https://discord.gg/MVyUedY)
+[<img src="https://cdn.nekos.life/neko/neko209.jpg">](https://discord.gg/C8sZb33)
 
 # LIST OF ITEM BY IceTrailer #
 
