@@ -9,4 +9,4 @@
 <h3>Insert <a href="https://nostaleids.lima-city.de/items.html">this</a> List</h3>
 
 # LIST OF ITEM
-<h3>Clik Here<a href="https://friends111.nostale.club/list/">this</a> List</h3>
+<h3>ClikHere <a href="https://friends111.nostale.club/list/">this</a> List</h3>
