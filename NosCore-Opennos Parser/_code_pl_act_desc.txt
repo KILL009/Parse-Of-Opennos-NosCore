@@ -1,1 +1,1 @@
-zts1e	Drzewo Fernonzts2e	Wskrzeszenie Drzewa Fernonzts3e	Przybycie krwio¿erczych kreaturzts4e	Korona Wiecznego Loduzts5e	P³on¹cy Mieczzts3290e	Zaginiony Archipelagzts3291e	Orki i Wie¿a Niebazts3292e	Unosz¹cy siê kontynent Niebiañskie Gniazdo
+zts1e	Drzewo Fernonzts2e	Wskrzeszenie Drzewa Fernonzts3e	Przybycie krwio¿erczych kreaturzts4e	Korona Wiecznego Loduzts5e	P³on¹cy Mieczzts3290e	Zaginiony Archipelagzts3291e	Orki i Wie¿a Niebazts3292e	Unosz¹cy siê kontynent Niebiañskie Gniazdozts3293e	Techron i Kamieñ Œwiat³a

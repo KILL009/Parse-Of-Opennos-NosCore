@@ -1,1 +1,1 @@
-zts1e	L'Albero di Fernonzts2e	La resurrezione dell'Albero di Fernonzts3e	L'arrivo di una creatura pericolosa.zts4e	Glacernonzts5e	La Spada infuocatazts3290e	Arcipelago Scomparsozts3291e	Gli Orchi e la Torre del Cielozts3292e	Nido Celeste, il continente sospeso
+zts1e	L'Albero di Fernonzts2e	La resurrezione dell'Albero di Fernonzts3e	L'arrivo di una creatura pericolosa.zts4e	Glacernonzts5e	La Spada infuocatazts3290e	Arcipelago Scomparsozts3291e	Gli Orchi e la Torre del Cielozts3292e	Nido Celeste, il continente sospesozts3293e	Techron e la Pietraluce
