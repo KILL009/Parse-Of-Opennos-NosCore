@@ -9,4 +9,16 @@
 
 <h3>ClikHere <a href="https://nosapki.com/">Apki</a> Nostale</h3>
 
-Thanks To 0Lucifer0 for the parse
+List of archives:
+NStpeData [Textures for effects]
+NStpuData [UI textures]
+NStpData [Textures for maps]
+NSipData [Items', buffs', avatars' and skills' icons]
+NS4BbData [Big images]
+NSmpData [Monster sprites]
+NSppData [Player-related sprites]
+NStcData [Map Grid (1cell=1px)]
+NScliData [constring.dat]
+NSlangData [_code_lang_list (ztsXXXe)]
+NSetcData [Word list for Memory & TabooStr.lst]
+NSgtdData [Items, quests, skills, mobs etc. data]
